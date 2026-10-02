@@ -422,7 +422,7 @@ if __name__ == '__main__':
     parser.add_argument('--temperature', type=float, default=TEMPERATURE)
     parser.add_argument('--top_k', type=int, default=TOP_K)
 
-    parser.add_argument('--budget', type=int, default=100000)
+    parser.add_argument('--budget', type=int, default=500000)
     parser.add_argument('--device', default=DEVICE)
 
     parser.add_argument('--no_train', action='store_true', default=True, help='no train flag')
